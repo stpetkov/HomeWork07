@@ -7,13 +7,14 @@ public class Person {
 		this.lastName = lastName;
 		this.age = age;
 		this.profExp = profExp;
+		count++;
 	}
 
 	private String firstName;
 	private String lastName;
 	private int age;
 	private int profExp;
-
+	static int count=0;
 	public Person() {
 		super();
 		// TODO Auto-generated constructor stub
